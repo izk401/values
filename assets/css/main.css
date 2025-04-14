@@ -62,7 +62,7 @@ a.border-button:hover {
 
 .section-heading {
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 10px;
 }
 
 .section-heading h2 {
@@ -543,7 +543,7 @@ ul.slick-dots {
 /* Services */
 
 .services {
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-bottom: 50px;
 }
 
@@ -884,7 +884,7 @@ ul.slick-dots {
 
 footer {
 	background-color: #232323;
-	padding: 80px 0px;
+	padding: 0px;
 	color: #fff;
 }
 
@@ -1264,7 +1264,7 @@ footer .contact-form button.filled-button:hover {
 		padding: 30px;
 	}
 	footer {
-		padding: 80px 0px 20px 0px;
+		padding: 0px;
 	}
 	footer .footer-item {
 		border-bottom: 1px solid #343434;
@@ -1340,7 +1340,6 @@ footer .contact-form button.filled-button:hover {
 
 
 table , td, th {
-	border-bottom: 1px solid #BBBBBB;
 	border-collapse: collapse;
 }
 td, th {
@@ -1357,21 +1356,18 @@ td, th {
 .values-contents {
     display: none;
 }
-.toggle-button {
-	background-color: #0079c7;
-	color: #fff;
-	font-size: 13px;
-	text-transform: uppercase;
-	font-weight: 700;
-	padding: 12px 30px;
-	border-radius: 30px;
-	display: inline-block;
-	transition: all 0.3s;
-	margin-top:20px;
-}
 
 .toggle-button:hover {
 	cursor: pointer;
-	background-color: #fff;
-	color: #0079c7;
+}
+
+
+body {
+    min-height: 100vh;
+}
+
+.sticky-bottom {
+    position: sticky;
+    top: 100vh;
+    z-index: 1020;
 }
