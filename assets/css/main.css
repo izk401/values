@@ -1371,3 +1371,7 @@ body {
     top: 100vh;
     z-index: 1020;
 }
+.modal-body ul {
+	list-style: disc;
+	margin-left: 15px;
+}
