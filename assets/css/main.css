@@ -1375,3 +1375,7 @@ body {
 	list-style: disc;
 	margin-left: 15px;
 }
+.modal.fade .modal-dialog.modal-work {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
