@@ -1375,3 +1375,7 @@ body {
 	list-style: disc;
 	margin-left: 15px;
 }
+.modal-body li {
+	font-size: 20px;
+	margin-bottom: 12px;
+}
